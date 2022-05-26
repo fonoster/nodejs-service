@@ -1,8 +1,8 @@
 /*
  * Copyright (C) <%= YEAR %> by Fonoster Inc (https://fonoster.com)
- * http://github.com/fonoster/fonoster
+ * http://github.com/fonoster
  *
- * This file is part of Fonoster
+ * This file is part of nodejs-service
  *
  * Licensed under the MIT License (the "License");
  * you may not use this file except in compliance with
