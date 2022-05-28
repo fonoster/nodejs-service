@@ -15,6 +15,9 @@
     "prebuild": "rimraf ./dist tsconfig.tsbuildinfo",
     "build": "tsc -b tsconfig.json"
   },
+  "bin": {
+    "run": ".scripts/run.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fonoster/nodejs-service.git"
