@@ -16,7 +16,8 @@
     "build": "tsc -b tsconfig.json",
     "lint": "eslint src --ext .ts --fix",
     "format": "prettier --write src",
-    "gen:docs": "node .scripts/docs-generator.js && cp docs/service.md"
+    "gen:docs": "node .scripts/docs-generator.js && cp docs/service.md",
+    "prepare": "husky install"
   },
   "bin": {
     "run": ".scripts/run.sh"
@@ -69,6 +70,7 @@
     "eslint-plugin-notice": "^0.9.10",
     "eslint-plugin-prettier": "^3.3.1",
     "esm": "^3.2.25",
+    "husky": "^8.0.1",
     "jsdoc-to-markdown": "^7.0.1",
     "mocha": "^10.0.0",
     "nodemon": "^2.0.16",
