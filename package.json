@@ -34,7 +34,7 @@
     "url": "git+https://github.com/fonoster/nodejs-service.git"
   },
   "keywords": [
-    "Template"
+    "template"
   ],
   "directories": {
     "src": "src",
