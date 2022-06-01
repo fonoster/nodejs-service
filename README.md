@@ -1,4 +1,4 @@
-# Fonoster {Image Name}
+# Fonoster {Service Name}
 
 > {A short description of the image, same as the Github Repo description.}
 
@@ -21,19 +21,19 @@ You can see all images available to pull from Docker Hub via the [Tags]() page. 
 You can clone this repository and manually build it.
 
 ```
-cd fonoster/fonoster-{project}\:%%VERSION%%
-docker build -t fonoster/{project}:%%VERSION%% .
+cd fonoster/{service}\:%%VERSION%%
+docker build -t fonoster/{service}:%%VERSION%% .
 ```
 
 Otherwise you can pull this image from docker index.
 
 ```
-docker pull fonoster/{project}:%%VERSION%%
+docker pull fonoster/{service}:%%VERSION%%
 ```
 
 ## Usage Example
 
-{An example of running the container. Most Fonos-based projects use docker-compose, so that kind of example is preferred but a docker run is also very helpful.}
+{An example of running the container. Most Fonoster-based services use docker-compose, so that kind of example is preferred but a docker run is also very helpful.}
 
 The following is a basic example of using this image.
 
