@@ -8,7 +8,7 @@
 
 {Longer description of what the image provides.}
 
-For more documentation on how Fonos images are constructed and how to work with them, please see the [documentation](https://github.com/fonoster/fonoster).
+Please read the [documentation](link) on how Fonoster services are created and how to work with them.
 
 ## Available Versions
 
@@ -25,7 +25,7 @@ cd fonoster/{service}\:%%VERSION%%
 docker build -t fonoster/{service}:%%VERSION%% .
 ```
 
-Otherwise you can pull this image from docker index.
+Otherwise, you can pull this image from the docker index.
 
 ```
 docker pull fonoster/{service}:%%VERSION%%
@@ -33,7 +33,7 @@ docker pull fonoster/{service}:%%VERSION%%
 
 ## Usage Example
 
-{An example of running the container. Most Fonoster-based services use docker-compose, so that kind of example is preferred but a docker run is also very helpful.}
+{An example of running the container. Most Fonoster services use docker-compose, and docker run is also beneficial.}
 
 The following is a basic example of using this image.
 
@@ -51,14 +51,14 @@ Optional specification notes.
 
 Environment variables are used in the entry point script to render configuration templates. You can specify the values of these variables during `docker run`, `docker-compose up`, or in Kubernetes manifests in the `env` array.
 
-{Each environment variable might have 1-2 sentences of description. If it needs longer than that, it should probably have a sub-section within Specs to elaborate.}
+{Each environment variable might have 1-2 sentences of description. For anything longer, we should probably have a sub-section within Specs to elaborate.}
 
 - `EXAMPLE_VAR2` - Example variable 1. **Required**
 - `EXAMPLE_VAR2` - Example optiona variable
 
 ## Exposed ports
 
-- `48080` - Default application port for http
+- `48080` - Default application port for HTTP
 
 ## Volumes
 
@@ -72,13 +72,13 @@ Environment variables are used in the entry point script to render configuration
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/fonoster/fonoster/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/fonoster/fonoster/blob/master/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
 
 ## Authors
 
 - [Pedro Sanders](https://github.com/psanders)
 
-See also the list of contributors who [participated](https://github.com/fonoster/fonoster/contributors) in this project.
+See the List of contributors who [participated](https://github.com/fonoster/fonoster/contributors) in this project.
 
 ## License
 
