@@ -65,7 +65,7 @@ Environment variables are used in the entry point script to render configuration
 
 ## Exposed ports
 
-- `48080` - Default application port for HTTP
+- `8080` - Default application port for HTTP
 
 ## Volumes
 
