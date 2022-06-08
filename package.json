@@ -2,7 +2,7 @@
   "name": "nodejs-service",
   "version": "0.1.0",
   "description": "Nodejs Service Template",
-  "main": "dist/sipp.js",
+  "main": "dist/src/index.js",
   "homepage": "https://github.com/fonoster/nodejs-service#readme",
   "author": "Fonoster Inc.",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "prepare": "husky install"
   },
   "bin": {
-    "run": ".scripts/run.sh"
+    "nodejsservice": "./dist/src/runner.js"
   },
   "nodemonConfig": {
     "watch": [
@@ -48,8 +48,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@fonoster/logger": "^0.3.6-alpha.16",
-    "express": "^3.2.25"
+    "@fonoster/logger": "^0.3.6",
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "@types/chai": "^4.3.1",
@@ -62,7 +62,6 @@
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "cross-env": "^7.0.3",
-    "dotenv": "^16.0.1",
     "eslint": "^7.23.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.1.0",

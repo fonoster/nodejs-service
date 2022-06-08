@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  * Copyright (C) 2022 by Fonoster Inc (https://fonoster.com)
  * http://github.com/fonoster
@@ -16,23 +17,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import express, {Express, Request, Response} from "express";
-import logger from "@fonoster/logger";
+import start from "./index";
 
-/**
- * This is the entry point for the service. It will be called by
- * the service runner.
- *
- * @param {number} port - The port the service will listen on.
- */
-export default function start(port: number | string = 3000): void {
-  const app: Express = express();
-
-  app.get("/", (req: Request, res: Response) => {
-    res.send("Express + TypeScript Server");
-  });
-
-  app.listen(port, () => {
-    logger.info(`⚡️[server]: Server is running at https://localhost:${port}`);
-  });
-}
+start(process.env.PORT);
