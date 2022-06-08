@@ -37,8 +37,15 @@ docker pull fonoster/{service}:%%VERSION%%
 
 The following is a basic example of using this image.
 
-```
+```bash
 docker run ...
+```
+
+or with Node:
+
+```bash
+npm i
+npm start
 ```
 
 ## Specs
