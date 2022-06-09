@@ -22,7 +22,7 @@ import sinonChai from "sinon-chai";
 const expect = chai.expect;
 chai.use(sinonChai);
 const sandbox = sinon.createSandbox();
-describe("@routr/echo", () => {
+describe("nodejs-service", () => {
   afterEach(() => sandbox.restore());
 
   it.skip("needs testing", () => {});
