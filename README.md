@@ -85,7 +85,7 @@ Please read [CONTRIBUTING.md](https://github.com/fonoster/fonoster/blob/master/C
 
 - [Pedro Sanders](https://github.com/psanders)
 
-See the List of contributors who [participated](https://github.com/fonoster/fonoster/contributors) in this project.
+See the List of contributors who [participated](https://github.com/fonoster/nodejs-service/contributors) in this project.
 
 ## License
 
